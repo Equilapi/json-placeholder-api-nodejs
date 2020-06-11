@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Placeholder API REST V1</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="alert alert-primary" role="alert">
+           <h3>JSON Placeholder API REST</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Employees</h5>
+                        <a href="/api/v1/employees" class="btn btn-primary">JSON</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Products</h5>
+                        <a href="/api/v1/products" class="btn btn-primary">JSON</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <div class="alert alert-info" role="alert">
+                  This ENDPOINT structure is the same for getting data. You only have to change in the url if you want to see the data of employees or products.
+                </div>
+                <figure>
+                    <pre>
+                        <code>
+<small>Get data</small>
+<span class="nt">https://json-placeholder-api.herokuapp.com/api/v1/</span><span>employees</span>
+                        </code>
+                        <code>
+<small>Add data</small>
+<span class="nt">https://json-placeholder-api.herokuapp.com/api/v1/</span><span>employed/add</span>
+                        </code>
+                        <code>
+<small>Get information by ID / Delete / Update</small>
+<span class="nt">https://json-placeholder-api.herokuapp.com/api/v1/</span><span>employed/:id</span>
+                        </code>
+                        <code>
+<small>Get information by SKU</small>
+<span class="nt">https://json-placeholder-api.herokuapp.com/api/v1/</span><span>product/sku/sku-0101001</span>
+                        </code>
+                    </pre>
+                </figure>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
