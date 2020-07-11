@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const URI = 'mongodb://json-placeholder-api:placeholderA123@ds151259.mlab.com:51259/json-placeholder-api'
+                const URI = 'xxxxxxxxxx'
 
 mongoose.connect(URI, {
         useNewUrlParser: true
